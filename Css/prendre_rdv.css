@@ -1,0 +1,123 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../Image/fond_inscription.jpeg");
+    overflow-x: hidden;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #FFFFFF;
+    background-color: #222222;
+}
+
+nav h1{
+    color: #FFFFFF;
+    font-family: 'Avenir', serif;
+    font-size: 30px;
+}
+
+nav .navigation{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .navigation a{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:#62bcda;
+}
+
+
+
+nav2{
+    position: sticky;
+    height: 5em;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    overflow: hidden;
+}
+
+nav2 .navigation2{
+    margin-top: 0em;
+    margin-left: 29em;
+    overflow: hidden;
+}
+
+nav2 .navigation2 a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.navigation2 a:hover{
+    color:#62bcda ;
+}
+
+
+
+.bloc_rdv{
+    position: relative;
+    height: 15em;
+    flex-direction: column;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4%;
+}
+.formulaire:hover{
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.formulaire input{
+    margin-top: 7px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 7px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+
+h2{
+    position: relative;
+    left: 41.5%;
+    color: #222222;
+    overflow: hidden;
+}
+
+h3{
+    position: relative;
+    left: 45%;
+    color: #222222;
+    overflow: hidden;
+}

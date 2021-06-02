@@ -1,0 +1,88 @@
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #FFFFFF;
+    background-color: #222222;
+}
+
+nav h1{
+    color: #FFFFFF;
+    font-family: 'Avenir', serif;
+    font-size: 30px;
+}
+
+nav .navigation{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .navigation a{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:#62bcda;
+}
+
+
+.graph{
+    position: relative;
+    top: 2em;
+    left: 24.5%;
+    margin: 10px;
+    width: 30em;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    z-index: -5;
+
+}
+.body{
+    background-color: #222222;
+}
+
+nav2{
+    position: sticky;
+    top: 0;
+    height: 3em;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+
+nav2 .navigation2{
+    margin-top: 0.2em;
+    margin-left: 4em;
+}
+
+nav2 .navigation2 a{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.navigation2 a:hover{
+    color:#62bcda ;
+}
+
+
