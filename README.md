@@ -1,4 +1,4 @@
-# Odiotech
+# Genie Logiciel - TP final
 
 ## Répartition du travail
 
